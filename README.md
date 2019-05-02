@@ -93,3 +93,12 @@ OS苹果用户则可以用这款APP：Pythonista在苹果的应用商店里可�
 
 Termux支持Linux常见的命令，配上黑客键盘这个APP就更加完美了。
 $ apt install vim
+
+下载地址：https://f-droid.org/packages/com.termux/
+
+官方网站：http://termux.com
+
+https://termux.com/help
+
+项目地址：https://github.com/termux/termux-app
+
