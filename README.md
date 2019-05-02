@@ -102,3 +102,19 @@ https://termux.com/help
 
 项目地址：https://github.com/termux/termux-app
 
+【如何提高输入效率】
+打开Termux之后，我们面对的是一个命令行界面，常用的手机输入工具，搜狗之类的，并没有功能键，无法输入esc、ctrl、alt、tab…
+Termux提供了一些解决方案：
+音量键（-）模拟Ctrl，所以你要中止输入到一半的命令，只好按下音量键（-）+c即可（等效于Ctrl+c）
+你也可以使用音量键（+）+q显示扩展键：ESC、CTR、ALT、TAB、-、/、|
+你有多种方式提高输入效率：
+使用蓝牙键盘
+Hacker's Keyboard: 一个输入法app,提供一切你需要的按键，方便地在Android上输入快捷键组合、特殊符号，提高Coding和CLI的效率
+在电脑中使用ssh接入Termux
+安装Jupyter Notebook，在电脑中使用浏览器连接Termux（可以在网页中使用terminal）
+【如何公网访问】
+公网访问
+我们如何把手机中的端口暴露到公网呢，有两种方式都很方便：
+使用ssh反向代理（使用autossh解决隧道的稳定性问题）
+使用ngrok（使用ngrok arm版本）
+如此一来手机中运行的网站你就可以在公网访问它，当然你也可以把ssh端口暴露到外网，这样你可以在任何有网络连接的地方连接到你的手机里。前提是Termux处于运行状态。
