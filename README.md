@@ -73,3 +73,23 @@ Android6.0以上会弹框确认是否授权,执行这条命令确保termux在最
 termux-setup-storage
 
 成功拿到存储权限后会在家目录生成storage目录,并且生成若干目录,软连接都指向外置存储卡的相应目录
+高档终端Termux组合了强壮的终端模仿和拓宽Linux包搜集能够使用。
+
+享用bash 和 zsh。
+
+运用nano 和 vim修改文件。
+
+经过ssh拜访服务器。
+
+运用gcc和clang编译代码。
+
+运用python控制台来作为口袋计算器。
+
+运用git 和 subversion查看项目。
+
+运用frotz运转根据文本的游戏
+
+OS苹果用户则可以用这款APP：Pythonista在苹果的应用商店里可以下载到
+
+Termux支持Linux常见的命令，配上黑客键盘这个APP就更加完美了。
+$ apt install vim
